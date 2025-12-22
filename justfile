@@ -16,6 +16,11 @@ install:
 # format with ruff
 format:
     uv tool run ruff format
+
 # lint with ruff
 lint:
     uv tool run ruff check
+
+# test with pytest
+test:
+    uv run pytest
