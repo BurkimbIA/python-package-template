@@ -21,6 +21,10 @@ format:
 lint:
     uv tool run ruff check
 
+# Run pre-commit [lint, format]"
+pre-commit: lint format
+    uvx prek run
+
 # test with pytest
 test:
     uv run pytest

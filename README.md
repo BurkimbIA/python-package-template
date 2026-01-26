@@ -15,7 +15,7 @@ This repository serves as a template for creating Python packages. It includes a
 2. Clone your new repository to your local machine.
 3. Install [uv](https://github.com/astral-sh/uv) if you haven't already
 4. Install [just](https://github.com/casey/just)
-5. Install [pre-commit](https://pre-commit.com/) if you haven't already
+5. Install [prek](https://github.com/j178/prek) if you haven't already
 6. You can then customize the package by modifying the files and structure as needed.
 7. Commit and push your changes to your repository and check the CI/CD pipeline for any issues.
 
