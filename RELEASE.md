@@ -46,6 +46,7 @@ Run the release checks:
 uv lock --check
 just format
 just lint
+just typecheck
 just test
 just pre-commit
 ```

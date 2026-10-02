@@ -22,6 +22,10 @@ format:
 lint:
     uvx ruff check
 
+# Typecheck using ty
+typecheck:
+    uvx ty check
+
 # Run pre-commit [lint, format]"
 pre-commit: lint format
     uvx prek run
