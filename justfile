@@ -11,15 +11,16 @@ clean:
 # install the dependencies
 install:
     uv sync --all-groups
+    uvx prek install
 
 
 # format with ruff
 format:
-    uv tool run ruff format
+    uvx ruff format
 
 # lint with ruff
 lint:
-    uv tool run ruff check
+    uvx ruff check
 
 # Run pre-commit [lint, format]"
 pre-commit: lint format
