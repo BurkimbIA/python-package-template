@@ -8,8 +8,6 @@ on:
   pull_request:
     branches:
       - main
-    paths:
-      - 'my_package/**'
 
 jobs:
   changelog:
